@@ -1,6 +1,6 @@
 function addingEventListener() {
   const input = document.querySelector('#input')
-  input.addEventListener('click', callback())
+  input.addEventListener('click', callback(e))
 }
 
 function callback(event) {
